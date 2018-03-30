@@ -1,0 +1,115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hexo-generator-feed',
+1 verbose cli   '-save' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json camel-case@3.0.0 No README data
+5 warn package.json core-js@1.2.7 No README data
+6 warn package.json dom-serializer@0.1.0 No README data
+7 warn package.json browser-fingerprint@0.0.1 No repository field.
+8 warn package.json node-fingerprint@0.0.2 No repository field.
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'hexo-generator-feed', null ]
+11 verbose cache add name=undefined spec="hexo-generator-feed" args=["hexo-generator-feed",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'hexo-generator-feed',
+12 verbose parsed url   path: 'hexo-generator-feed',
+12 verbose parsed url   href: 'hexo-generator-feed' }
+13 silly lockFile 9a5c3fdc-hexo-generator-feed hexo-generator-feed
+14 verbose lock hexo-generator-feed /home/glm/.npm/9a5c3fdc-hexo-generator-feed.lock
+15 silly lockFile 9a5c3fdc-hexo-generator-feed hexo-generator-feed
+16 silly lockFile 9a5c3fdc-hexo-generator-feed hexo-generator-feed
+17 verbose addNamed [ 'hexo-generator-feed', '' ]
+18 verbose addNamed [ null, '*' ]
+19 silly lockFile 99d54e98-hexo-generator-feed hexo-generator-feed@
+20 verbose lock hexo-generator-feed@ /home/glm/.npm/99d54e98-hexo-generator-feed.lock
+21 silly addNameRange { name: 'hexo-generator-feed', range: '*', hasData: false }
+22 verbose url raw hexo-generator-feed
+23 verbose url resolving [ 'http://registry.npmjs.org/', './hexo-generator-feed' ]
+24 verbose url resolved http://registry.npmjs.org/hexo-generator-feed
+25 info trying registry request attempt 1 at 03:21:43
+26 http GET http://registry.npmjs.org/hexo-generator-feed
+27 http 200 http://registry.npmjs.org/hexo-generator-feed
+28 silly registry.get cb [ 200,
+28 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+28 silly registry.get     server: 'UploadServer',
+28 silly registry.get     'cache-control': 'max-age=300',
+28 silly registry.get     'last-modified': 'Mon, 5 Mar 2018 17:51:58 GMT',
+28 silly registry.get     etag: '"5a9d83be-6a31"',
+28 silly registry.get     'x-npm-region': 'US-West',
+28 silly registry.get     'content-length': '27185',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Thu, 29 Mar 2018 19:21:44 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1522351304.806264,VS0,VE221',
+28 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+29 silly addNameRange number 2 { name: 'hexo-generator-feed', range: '*', hasData: true }
+30 silly addNameRange versions [ 'hexo-generator-feed',
+30 silly addNameRange   [ '0.0.1',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.0.3',
+30 silly addNameRange     '0.0.4',
+30 silly addNameRange     '0.0.5',
+30 silly addNameRange     '0.0.6',
+30 silly addNameRange     '0.0.7',
+30 silly addNameRange     '0.0.8',
+30 silly addNameRange     '0.0.9',
+30 silly addNameRange     '0.0.10',
+30 silly addNameRange     '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.2.2' ] ]
+31 verbose addNamed [ 'hexo-generator-feed', '1.2.2' ]
+32 verbose addNamed [ '1.2.2', '1.2.2' ]
+33 silly lockFile 4392f43c-hexo-generator-feed-1-2-2 hexo-generator-feed@1.2.2
+34 verbose lock hexo-generator-feed@1.2.2 /home/glm/.npm/4392f43c-hexo-generator-feed-1-2-2.lock
+35 silly lockFile 8a727f13-ed-hexo-generator-feed-1-2-2-tgz http://registry.npmjs.org/hexo-generator-feed/-/hexo-generator-feed-1.2.2.tgz
+36 verbose lock http://registry.npmjs.org/hexo-generator-feed/-/hexo-generator-feed-1.2.2.tgz /home/glm/.npm/8a727f13-ed-hexo-generator-feed-1-2-2-tgz.lock
+37 verbose addRemoteTarball [ 'http://registry.npmjs.org/hexo-generator-feed/-/hexo-generator-feed-1.2.2.tgz',
+37 verbose addRemoteTarball   '9516d1596509b157f4d044fb49b2bae398b82ba7' ]
+38 silly lockFile 8a727f13-ed-hexo-generator-feed-1-2-2-tgz http://registry.npmjs.org/hexo-generator-feed/-/hexo-generator-feed-1.2.2.tgz
+39 silly lockFile 8a727f13-ed-hexo-generator-feed-1-2-2-tgz http://registry.npmjs.org/hexo-generator-feed/-/hexo-generator-feed-1.2.2.tgz
+40 silly lockFile 4392f43c-hexo-generator-feed-1-2-2 hexo-generator-feed@1.2.2
+41 silly lockFile 4392f43c-hexo-generator-feed-1-2-2 hexo-generator-feed@1.2.2
+42 silly lockFile 99d54e98-hexo-generator-feed hexo-generator-feed@
+43 silly lockFile 99d54e98-hexo-generator-feed hexo-generator-feed@
+44 error Error: EACCES, mkdir '/home/glm/tmp/npm-16243-1l4qCS-S'
+44 error  { [Error: EACCES, mkdir '/home/glm/tmp/npm-16243-1l4qCS-S']
+44 error   errno: 3,
+44 error   code: 'EACCES',
+44 error   path: '/home/glm/tmp/npm-16243-1l4qCS-S' }
+45 error Please try running this command again as root/Administrator.
+46 error System Linux 4.2.0-27-generic
+47 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "hexo-generator-feed" "-save"
+48 error cwd /home/glm/glm_doc/blog
+49 error node -v v0.10.25
+50 error npm -v 1.3.10
+51 error path /home/glm/tmp/npm-16243-1l4qCS-S
+52 error code EACCES
+53 error errno 3
+54 error stack Error: EACCES, mkdir '/home/glm/tmp/npm-16243-1l4qCS-S'
+55 verbose exit [ 3, true ]
