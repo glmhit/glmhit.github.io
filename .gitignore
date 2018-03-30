@@ -1,0 +1,4 @@
+.deploy*/
+.deploy_git 
+public/
+*.*~
