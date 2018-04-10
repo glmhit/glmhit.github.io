@@ -1,15 +1,16 @@
-# ubuntu 安装包管理
-[TOC ]
+---
+title: ubuntu安装包管理 
+data: 2018/4/11 1:28:00
+---
 
 ## apt-get
-- apt-get is a simple command line interface for downloading and
-installing packages. The most frequently used commands are update
-and install. 
 
-## dpkg 
-- package manager for Debian
+- APT package handling utility -- command-line interface 
+## dpkg  
+- package manager for Debian  
 
-## aptitude 
+
+## aptitude
 - high-level interface to the package manager
 
 ## pip
