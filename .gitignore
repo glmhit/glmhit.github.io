@@ -1,5 +1,6 @@
 .deploy*/
-.deploy_git 
+.deploy_git
 public/
 db.json
 *.*~
+db.json
