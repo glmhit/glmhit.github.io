@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-04-13T01:08:33.798Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>stone_Taihang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Sphinx制作文档</title>
+    <link href="http://yoursite.com/2018/04/13/sphinx_use/"/>
+    <id>http://yoursite.com/2018/04/13/sphinx_use/</id>
+    <published>2018-04-13T01:08:33.798Z</published>
+    <updated>2018-04-13T01:08:33.798Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul><li><p>Sphinx 是一种工具，它允许开发人员以纯文本格式编写文档，以便采用满足不同需求的格式轻松生成输出。这在使用 Version Control System 追踪变更时非常有用。纯文本文档对不同系统之间的协作者也非常有用。纯文本是当前可以采用的最便捷的格式之一。</p></li><li><p>虽然 Sphinx 是用 Python 编写的，并且最初是为 Python 语言文档而创建，但它并不一定是以语言为中心，在某些情况下，甚至不是以程序员为中心。Sphinx 有许多用处，比如可以用它来编写整本书！</p><ul><li>突出显示<br>默认情况下，Sphinx 会为 Python 突出显示代码，但它还允许定义其他编程语言，比如 C 和 Ruby。</li></ul></li><li><p>可以将 Sphinx 想像成为一种文档框架：它会抽象化比较单调的部分，并提供自动函数来解决一些常见问题，比如突出显示标题索引和特殊代码（在显示代码示例时），以及突出显示适当的语法。<br>Sphinx 使用 reStructuredText 标记语法（和其他一些语法）来提供文档控制 。 命令行界面是与 Sphinx 进行互动的主要方式</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="install"><a href="#install" class="headerlink" title="install"></a>install</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo easy_install sphinx`</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> pip install sphinx --upgrade</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> pip install sphinx-intl</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> sudo apt-get install sphinx3-doc</span></span><br></pre></td></tr></table></figure></li></ul><h3 id="创建工程"><a href="#创建工程" class="headerlink" title="创建工程"></a>创建工程</h3><p>执行 sphinx-quickstart</p><blockquote></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">├── Makefile</span><br><span class="line">├── _build</span><br><span class="line">├── _static</span><br><span class="line">├── conf.py</span><br><span class="line">└── index.rs</span><br></pre></td></tr></table></figure><h3 id="生成html"><a href="#生成html" class="headerlink" title="生成html"></a>生成html</h3><p> make html 命令的输出、</p><h3 id="生成静态网站"><a href="#生成静态网站" class="headerlink" title="生成静态网站"></a>生成静态网站</h3><p>随着我们完成第一步操作，从两个文件中生成 HTML 之后，我们就拥有一个完整的函数式（静态）网站。</p><p>在 _build 目录内，现在应该有两个目录：doctrees 和 HTML。我们对于这个存储了文档网站所需的全部文件的 HTML 目录很感兴趣。使用浏览器打开 index.html 文件，就会发现如 图 1 所示的内容。</p><p><a href="https://www.ibm.com/developerworks/cn/opensource/os-sphinx-documentation/figure001.jpg" target="_blank" rel="noopener">1</a></p><p>参考文档<br>[1 IBM] <a href="https://www.ibm.com/developerworks/cn/opensource/os-sphinx-documentation/" target="_blank" rel="noopener">https://www.ibm.com/developerworks/cn/opensource/os-sphinx-documentation/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Sphinx 是一种工具，它允许开发人员以纯文本格式编写文档，以便采用满足不同需求的格式轻松生成输出。这在使用 Versi
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用Sphinx翻译文档</title>
+    <link href="http://yoursite.com/2018/04/12/sphinx_translate/"/>
+    <id>http://yoursite.com/2018/04/12/sphinx_translate/</id>
+    <published>2018-04-12T12:44:46.597Z</published>
+    <updated>2018-04-12T12:44:44.873Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ pip install sphinx --upgrade</span><br><span class="line">$ pip install sphinx-intl</span><br><span class="line">sudo apt-get install sphinx3-doc</span><br><span class="line">sudo easy_install sphinx</span><br></pre></td></tr></table></figure><p><img src="http://www.sphinx-doc.org/en/stable/_images/translation.png" alt="pot"> </p><p>新建新的文档项目<br>在空文件夹下执行 sphinx-quickstart</p><h2 id="抽取文档中的文本并开始翻译"><a href="#抽取文档中的文本并开始翻译" class="headerlink" title="抽取文档中的文本并开始翻译"></a>抽取文档中的文本并开始翻译</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu安装包管理</title>
+    <link href="http://yoursite.com/2018/04/12/package-manager/"/>
+    <id>http://yoursite.com/2018/04/12/package-manager/</id>
+    <published>2018-04-12T12:44:46.381Z</published>
+    <updated>2018-04-12T12:44:44.873Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="apt-get"><a href="#apt-get" class="headerlink" title="apt-get"></a>apt-get</h2><ul><li>APT package handling utility – command-line interface <h2 id="dpkg"><a href="#dpkg" class="headerlink" title="dpkg"></a>dpkg</h2></li><li>package manager for Debian  </li></ul><h2 id="aptitude"><a href="#aptitude" class="headerlink" title="aptitude"></a>aptitude</h2><ul><li>high-level interface to the package manager</li></ul><h2 id="pip"><a href="#pip" class="headerlink" title="pip"></a>pip</h2><ul><li>A tool for installing and managing Python packages</li></ul><h2 id="yum"><a href="#yum" class="headerlink" title="yum"></a>yum</h2><ul><li>yum is an interactive, rpm based, package manager. </li><li>It can automatically perform system updates, including dependency analysis and obsolete processing  based  on “repository” metadata. It can also perform installation of new qpackages, removal of old packages and  perform  queries  on the  installed and/or available packages among many other commands/services (see below). yum is similar to other high level package  managers like apt-get and smart.</li></ul><hr><p><a href="https://blog.csdn.net/xiaoyanghuaban/article/details/22946987" target="_blank" rel="noopener">dpkg —- apt-get —— aptitude 三种方式的区别 及命令格式</a> </p><blockquote><p>dpkg绕过apt包管理数据库对软件包进行操作，所以你用dpkg安装过的软件包用apt可以再安装一遍，系统不知道之前安装过了，将会覆盖之前dpkg的安装。<br>dpkg是用来安装.deb文件,但不会解决模块的依赖关系,且不会关心ubuntu的软件仓库内的软件,可以用于安装本地的deb文件<br>apt会解决和安装模块的依赖问题,并会咨询软件仓库, 但不会安装本地的deb文件, apt是建立在dpkg之上的软件管理工具<br>aptitude与 apt-get 一样，是 Debian 及其衍生系统极其强大的包管理工具。与<code>apt-get</code> 不同的是，<code>aptitude</code>在处理依赖问题上更佳一些。举例来说，aptitude在删除一个包时，会同时删除本身所依赖的包。这样，系统中不会残留无用的包，整个系统更为干净。</p></blockquote><hr><ul><li style="list-style: none"><input type="checkbox" checked> Finish my changes<ul><li style="list-style: none"><input type="checkbox"> Push my commits to GitHub</li><li style="list-style: none"><input type="checkbox"> (Optional) Open a pull request</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;apt-get&quot;&gt;&lt;a href=&quot;#apt-get&quot; class=&quot;headerlink&quot; title=&quot;apt-get&quot;&gt;&lt;/a&gt;apt-get&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;APT package handling utility – command-line 
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用hexo+github发布博客简易教程</title>
+    <link href="http://yoursite.com/2018/04/12/hello-world/"/>
+    <id>http://yoursite.com/2018/04/12/hello-world/</id>
+    <published>2018-04-12T12:44:46.217Z</published>
+    <updated>2018-04-12T12:44:44.873Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>[TOC] </li></ul><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><h3 id="新建博客"><a href="#新建博客" class="headerlink" title="新建博客"></a>新建博客</h3><p>hexo使用<a href="https://hexo.io/docs/front-matter.html" target="_blank" rel="noopener">Front-matter</a>配置博客的名称，在markdown文件头添加YAML语句</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: ubuntu安装包管理 </span><br><span class="line">data: 2018/4/11 1:28:00</span><br><span class="line">---</span><br></pre></td></tr></table></figure><hr><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>发布后，github有延迟，等一分左右才能刷新出新的内容</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;[TOC] &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. C
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

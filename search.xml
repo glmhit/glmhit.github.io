@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[使用Sphinx制作文档]]></title>
+    <url>%2F2018%2F04%2F13%2Fsphinx_use%2F</url>
+    <content type="text"><![CDATA[简介 Sphinx 是一种工具，它允许开发人员以纯文本格式编写文档，以便采用满足不同需求的格式轻松生成输出。这在使用 Version Control System 追踪变更时非常有用。纯文本文档对不同系统之间的协作者也非常有用。纯文本是当前可以采用的最便捷的格式之一。 虽然 Sphinx 是用 Python 编写的，并且最初是为 Python 语言文档而创建，但它并不一定是以语言为中心，在某些情况下，甚至不是以程序员为中心。Sphinx 有许多用处，比如可以用它来编写整本书！ 突出显示默认情况下，Sphinx 会为 Python 突出显示代码，但它还允许定义其他编程语言，比如 C 和 Ruby。 可以将 Sphinx 想像成为一种文档框架：它会抽象化比较单调的部分，并提供自动函数来解决一些常见问题，比如突出显示标题索引和特殊代码（在显示代码示例时），以及突出显示适当的语法。Sphinx 使用 reStructuredText 标记语法（和其他一些语法）来提供文档控制 。 命令行界面是与 Sphinx 进行互动的主要方式 使用install1234$ sudo easy_install sphinx`$ pip install sphinx --upgrade$ pip install sphinx-intl$ sudo apt-get install sphinx3-doc 创建工程执行 sphinx-quickstart 12345├── Makefile├── _build├── _static├── conf.py└── index.rs 生成html make html 命令的输出、 生成静态网站随着我们完成第一步操作，从两个文件中生成 HTML 之后，我们就拥有一个完整的函数式（静态）网站。 在 _build 目录内，现在应该有两个目录：doctrees 和 HTML。我们对于这个存储了文档网站所需的全部文件的 HTML 目录很感兴趣。使用浏览器打开 index.html 文件，就会发现如 图 1 所示的内容。 1 参考文档[1 IBM] https://www.ibm.com/developerworks/cn/opensource/os-sphinx-documentation/]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[使用Sphinx翻译文档]]></title>
+    <url>%2F2018%2F04%2F12%2Fsphinx_translate%2F</url>
+    <content type="text"><![CDATA[1234$ pip install sphinx --upgrade$ pip install sphinx-intlsudo apt-get install sphinx3-docsudo easy_install sphinx 新建新的文档项目在空文件夹下执行 sphinx-quickstart 抽取文档中的文本并开始翻译]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[ubuntu安装包管理]]></title>
+    <url>%2F2018%2F04%2F12%2Fpackage-manager%2F</url>
+    <content type="text"><![CDATA[apt-get APT package handling utility – command-line interface dpkg package manager for Debian aptitude high-level interface to the package manager pip A tool for installing and managing Python packages yum yum is an interactive, rpm based, package manager. It can automatically perform system updates, including dependency analysis and obsolete processing based on “repository” metadata. It can also perform installation of new qpackages, removal of old packages and perform queries on the installed and/or available packages among many other commands/services (see below). yum is similar to other high level package managers like apt-get and smart. dpkg —- apt-get —— aptitude 三种方式的区别 及命令格式 dpkg绕过apt包管理数据库对软件包进行操作，所以你用dpkg安装过的软件包用apt可以再安装一遍，系统不知道之前安装过了，将会覆盖之前dpkg的安装。dpkg是用来安装.deb文件,但不会解决模块的依赖关系,且不会关心ubuntu的软件仓库内的软件,可以用于安装本地的deb文件apt会解决和安装模块的依赖问题,并会咨询软件仓库, 但不会安装本地的deb文件, apt是建立在dpkg之上的软件管理工具aptitude与 apt-get 一样，是 Debian 及其衍生系统极其强大的包管理工具。与apt-get 不同的是，aptitude在处理依赖问题上更佳一些。举例来说，aptitude在删除一个包时，会同时删除本身所依赖的包。这样，系统中不会残留无用的包，整个系统更为干净。 Finish my changes Push my commits to GitHub (Optional) Open a pull request]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[使用hexo+github发布博客简易教程]]></title>
+    <url>%2F2018%2F04%2F12%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[[TOC] Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment 新建博客hexo使用Front-matter配置博客的名称，在markdown文件头添加YAML语句 1234---title: ubuntu安装包管理 data: 2018/4/11 1:28:00--- 12hexo ghexo d 发布后，github有延迟，等一分左右才能刷新出新的内容]]></content>
+  </entry>
+</search>
