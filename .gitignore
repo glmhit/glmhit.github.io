@@ -1,4 +1,4 @@
-.deploy*/
+.deploy*
 public/
 db.json
 *.*~
